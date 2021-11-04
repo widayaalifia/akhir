@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    //Banner
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@color/orange"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        //Selamat Datang
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="161dp"
+                android:layout_height="69dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/bold"
+                android:text="Hay, Selamat Datang "
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/logosaya" />
+        </LinearLayout>
+
+        //Saldo
+
+        <LinearLayout
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/frame_saldo_luar"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/medium"
+                android:text="SALDO"
+                android:textColor="@color/orange"
+                android:textSize="18dp" />
+
+            <LinearLayout
+                android:id="@+id/L_saldo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:text="Rp."
+                    android:textColor="@color/orange"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/saldoku"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:text="5.500.000"
+                    android:textColor="@color/orange"
+                    android:textSize="30dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    //Frame Content
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="204dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        //Content 1
+        <LinearLayout
+            android:id="@+id/catatan_keuangan"
+            android:layout_width="130dp"
+            android:layout_height="126dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/frame_saldo_luar"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="96dp"
+                android:layout_height="86dp"
+                android:src="@drawable/img2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bold"
+                android:text="Catatan Keuangan"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        //Content 2
+
+        <LinearLayout
+            android:id="@+id/artikel"
+            android:layout_width="136dp"
+            android:layout_height="126dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/frame_saldo_luar"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="96dp"
+                android:layout_height="86dp"
+                android:src="@drawable/img3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bold"
+                android:text="@string/tips_trik"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:layout_gravity="center"
+        android:background="@drawable/frame_kalimat"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="106dp"
+            android:text="Jika Anda benaar-benar bisa menghitung uang Anda, maka anda bukan orang kaya"
+            android:textSize="18dp"
+            android:textStyle="normal"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="142dp"
+        android:layout_height="40dp"
+        android:layout_gravity="end"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_login"
+        android:fontFamily="@font/medium"
+        android:text="logout"
+        android:textColor="@color/white" />
+</LinearLayout>

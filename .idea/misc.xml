@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/KepengKu/app/src/main/res/drawable/button_bg.xml" value="0.17777777777777778" />
+        <entry key="..\:/KepengKu/app/src/main/res/drawable/button_login.xml" value="0.17962962962962964" />
+        <entry key="..\:/KepengKu/app/src/main/res/drawable/button_registrasi.xml" value="0.15555555555555556" />
+        <entry key="..\:/KepengKu/app/src/main/res/drawable/corners.xml" value="0.17314814814814813" />
+        <entry key="..\:/KepengKu/app/src/main/res/drawable/edit_text_style.xml" value="0.17314814814814813" />
+        <entry key="..\:/KepengKu/app/src/main/res/drawable/frame_kalimat.xml" value="0.2128205128205128" />
+        <entry key="..\:/KepengKu/app/src/main/res/drawable/frame_saldo.xml" value="0.15555555555555556" />
+        <entry key="..\:/KepengKu/app/src/main/res/drawable/frame_saldo_luar.xml" value="0.2128205128205128" />
+        <entry key="..\:/KepengKu/app/src/main/res/drawable/ic_about.xml" value="0.16018518518518518" />
+        <entry key="..\:/KepengKu/app/src/main/res/drawable/ic_launcher_background.xml" value="0.10989583333333333" />
+        <entry key="..\:/KepengKu/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.17314814814814813" />
+        <entry key="..\:/KepengKu/app/src/main/res/drawable/radio_off.xml" value="0.17314814814814813" />
+        <entry key="..\:/KepengKu/app/src/main/res/drawable/radio_on_green.xml" value="0.1125" />
+        <entry key="..\:/KepengKu/app/src/main/res/drawable/radio_on_red.xml" value="0.17314814814814813" />
+        <entry key="..\:/KepengKu/app/src/main/res/drawable/radio_states_green.xml" value="0.17314814814814813" />
+        <entry key="..\:/KepengKu/app/src/main/res/drawable/radio_states_red.xml" value="0.17314814814814813" />
+        <entry key="..\:/KepengKu/app/src/main/res/drawable/radio_text.xml" value="0.17314814814814813" />
+        <entry key="..\:/KepengKu/app/src/main/res/drawable/selector.xml" value="0.1638888888888889" />
+        <entry key="..\:/KepengKu/app/src/main/res/layout/activity_add.xml" value="0.25" />
+        <entry key="..\:/KepengKu/app/src/main/res/layout/activity_catatan.xml" value="0.11458333333333333" />
+        <entry key="..\:/KepengKu/app/src/main/res/layout/activity_click.xml" value="0.1933876811594203" />
+        <entry key="..\:/KepengKu/app/src/main/res/layout/activity_edit.xml" value="0.16" />
+        <entry key="..\:/KepengKu/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/KepengKu/app/src/main/res/layout/activity_login.xml" value="0.15081521739130435" />
+        <entry key="..\:/KepengKu/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/KepengKu/app/src/main/res/layout/activity_register.xml" value="0.15081521739130435" />
+        <entry key="..\:/KepengKu/app/src/main/res/layout/activity_search.xml" value="0.1933876811594203" />
+        <entry key="..\:/KepengKu/app/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="..\:/KepengKu/app/src/main/res/layout/activity_tips1.xml" value="0.11458333333333333" />
+        <entry key="..\:/KepengKu/app/src/main/res/layout/activity_tips2.xml" value="0.11458333333333333" />
+        <entry key="..\:/KepengKu/app/src/main/res/layout/activity_tips3.xml" value="0.11458333333333333" />
+        <entry key="..\:/KepengKu/app/src/main/res/layout/content_main.xml" value="0.22" />
+        <entry key="..\:/KepengKu/app/src/main/res/layout/list_kas.xml" value="0.33" />
+        <entry key="..\:/KepengKu/app/src/main/res/layout/list_kas_in_out.xml" value="0.33" />
+        <entry key="..\:/KepengKu/app/src/main/res/layout/operation_menu.xml" value="0.22" />
+        <entry key="..\:/KepengKu/app/src/main/res/menu/menu_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/KepengKu/app/src/main/res/menu/menu_navigation.xml" value="0.20416666666666666" />
+        <entry key="..\:/KepengKu/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1125" />
+        <entry key="..\:/KepengKu/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1125" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
